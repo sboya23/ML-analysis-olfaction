@@ -28,5 +28,5 @@
 
   Analysis pipeline:
 
-[schematic.pdf](https://github.com/user-attachments/files/24293756/schematic.pdf)
+![schematic](https://github.com/user-attachments/assets/0965771a-6e58-449b-bcf7-12dc34a51438)
 
