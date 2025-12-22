@@ -60,6 +60,7 @@ summary(ME_EXPL)
 resid_panel(ME_EXPL)
 anova(ME_EXPL, type=3)
 
+#post-hoc exploring odour type presentation at every genotype and source
 emmeans(ME_EXPL, list(pairwise ~ Odour_type_presentation|Genotype|Source), adjust = "bonferroni")
 
 #post-hoc exploring genotype at every odour type presentation
@@ -143,3 +144,4 @@ ggsave("ManvsML_C9_67weeks_filtered_gen.tiff", plot = pEXPL_Gen_Source, width = 
 pEXPL_Gen_Source
 
 ```
+
