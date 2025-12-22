@@ -25,3 +25,8 @@
 * **Simba output - 1 second time bins** - Time_bins_ML_reslts.csv shows the raw output from the Simba validation analysis of unseen videos of estimated time spent sniffing at every 1 s time bin from each validation video. time_binning_9.py compiles these 1 s time bins into 9 values - one for each cotton bud presentation according to the duration of each individual video.
 
 * **Manual scores** - all manual scores.zip folder contains all manual scores from each video used in the validation analysis presented in the paper, including .py scripts for collating individual files together.
+
+  Analysis pipeline:
+[schematic.tif](https://github.com/user-attachments/files/24293690/schematic.tif)
+
+  
