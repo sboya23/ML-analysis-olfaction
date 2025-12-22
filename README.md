@@ -11,8 +11,8 @@
 
 ## Contents
 
-* **DLC and video data prep for SimBA analysis** - contains scripts for removing cotton bud frames from videos and matching the DLC tracking files to the cleaned up videos.
-
+* **DLC and video data prep for SimBA analysis** - contains scripts for removing cotton bud frames from videos and matching the DLC tracking files to the cleaned up videos. Video and DLC prep folder contains .py script that removes video frames without cotton bud based on DLC confidence scores - you need to have your video files and DLC output in the same folder with matching ids, together with the script file, adjust the column location for the cotton bud data based on your set up. DLC prep contain a single example DLC output file and a script to filtered out data for frames without cotton bud and to remove cage output afterwards.
+ 
 * **Figure 3** - contains 5x .csv files, C9orf72 study - 1) young, and 2) old time point correlation data showing time binned data for sniffing time at every cotton bud presentation from manual and ML scoring, Tardbp study - 3) young, and 4) old time point correlation data showing time binned data for sniffing time at every cotton bud presentation from manual and ML scoring, 5) data for correlation analysis from two manual scorers; 2x .rmd files 1) correlation.rmd for analysis of manual vs ML scoring, 2) correlation_manual2.rmd - for analysis of correlation between two manual scorers.
 
 
