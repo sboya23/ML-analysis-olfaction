@@ -27,6 +27,7 @@
 * **Manual scores** - all manual scores.zip folder contains all manual scores from each video used in the validation analysis presented in the paper, including .py scripts for collating individual files together.
 
   Analysis pipeline:
+<img width="1280" height="720" alt="schematic" src="https://github.com/user-attachments/assets/fc708cd3-ffa0-485f-a325-217ef5e6a217" />
 
-![schematic](https://github.com/user-attachments/assets/0965771a-6e58-449b-bcf7-12dc34a51438)
+
 
