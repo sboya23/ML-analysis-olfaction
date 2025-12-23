@@ -20,7 +20,7 @@
 
 * **Figure 5** - contains 4x .csv files and 4x .rmd files. The .csv files show data filtered for under 10 s sniffing trials on the first odour presentation from the C9orf72 study - 1) young, and 2) old time point, Tardbp study - 3) young, and 4) old time point. The .rmd files contain scripts for lmer and anova statistical analysis of the data from the C9orf72 study - 5) young, and 6) old time point, Tardbp study - 7) young, and 8) old time point.
 
-* **Simba training** - contains features importance logs, classification reports, learning cures and meta data files for the Simba model that was trained to analyse the validation dataset present in the paper.
+* **Simba training** - contains features importance logs, classification reports, learning curves and meta data files for the SimBA model that was trained to analyse the validation dataset present in the paper.
 
 * **Simba output - 1 second time bins** - Time_bins_ML_reslts.csv shows the raw output from the Simba validation analysis of unseen videos of estimated time spent sniffing at every 1 s time bin from each validation video. time_binning_9.py compiles these 1 s time bins into 9 values - one for each cotton bud presentation according to the duration of each individual video.
 
