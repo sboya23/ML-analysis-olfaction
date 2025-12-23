@@ -7,7 +7,7 @@
 >After extracting the Data folder change the working directory in each .py or .rmd file to the correct one for you.
 
 >
->Run .rmd analysis files within each folder, clean RStudio workspace in-between scripts.
+>Run .rmd analysis files within each folder, clean RStudio workspace in-between scripts. Change the working directory to the one correct for you.
 
 ## Contents
 
