@@ -22,9 +22,9 @@
 
 * **Simba training** - contains features importance logs, classification reports, learning curves and meta data files for the SimBA model that was trained to analyse the validation dataset present in the paper.
 
-* **Simba output - 1 second time bins** - Time_bins_ML_reslts.csv shows the raw output from the Simba validation analysis of unseen videos of estimated time spent sniffing at every 1 s time bin from each validation video. time_binning_9.py compiles these 1 s time bins into 9 values - one for each cotton bud presentation according to the duration of each individual video.
+* **Simba output - 1 second time bins** - Time_bins_ML_reslts.csv shows the raw output from the SimBA validation analysis of unseen videos of estimated time spent sniffing at every 1 s time bin from each validation video. time_binning_9.py compiles these 1 s time bins into 9 values - one for each cotton bud presentation according to the duration of each individual video.
 
-* **Manual scores** - all manual scores.zip folder contains all manual scores from each video used in the validation analysis presented in the paper, including .py scripts for collating individual files together.
+* **Manual scores** - all manual scores.zip folder contains all manual scores from each video used in the validation analysis presented in the paper, including .py scripts for collating individual files together. SimBA-training-SVCtoSolomon.zip contains the works flow used to change the SimpleVideoCoder manual analysis output to Solomon out put which is recognised by SimBA and was used for SimBA training.
 
   Analysis pipeline:
 
