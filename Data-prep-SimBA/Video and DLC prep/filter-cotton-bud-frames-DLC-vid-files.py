@@ -3,6 +3,7 @@
 """
 Created on Mon Oct 28 11:49:39 2024
 #Code to filter out frames with no cotton bud from olfaction task videos - using video files and DLC analysis output
+#Make sure you have your DLC output and your video files in the same folder with this script and the IDs of DLC output and video files are matching
 @author: sboyanova
 """
 
