@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Oct  3 17:15:00 2024
-#Remove cotton bud and cage data from DLC output to use only body parts data in SimBA
+#On the filtered for cotton bud files - use this script to remove all cage label columns
 #Adapt to ilocs to your set-up
 @author: sboyanova
 """
@@ -12,8 +12,8 @@ import pandas as pd
 
 # Specify the directory containing the CSV files
 
-directory = '/path/filtered_cb_DLCcsv'  # Change this to the directory containing your CSVs
-output_directory = "/path/tracking_prep/remove_cage_DLCcsv"  # Folder to save the filtered videos
+directory = ''  # Change this to the directory containing your filtered CSVs
+output_directory = ''  # New folder to save the processed DLC output
 os.makedirs(output_directory, exist_ok=True) 
 # Define the column range to keep (A to AH corresponds to columns 0 to 33 in zero-indexed)
 cols_to_keep = list(range(31))  # Keeping columns up to column AE (index 30)
