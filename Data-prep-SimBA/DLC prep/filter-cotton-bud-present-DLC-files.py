@@ -4,6 +4,7 @@
 Created on Fri Oct 25 16:58:08 2024
 #Remove data about frames with no cotton bud from the DLC output to use in SimBA
 #Adapt ilocs to your set-up
+#On these filtered files - use remove cages script to remove all cage DLC output not needed for SimBA
 @author: sboyanova
 """
 import os
@@ -11,8 +12,8 @@ import os
 import pandas as pd
 
 # File path to the original CSV file
-directory = 'path'  # Change this to the directory containing your CSVs
-output_directory = "path/filtered_cb_DLCcsv"  # Folder to save the filtered videos
+directory = ''  # Change this to the directory containing your CSVs
+output_directory = 'filtered_cb_DLCcsv'  # Change accordingly - new folder to save the filtered videos
 os.makedirs(output_directory, exist_ok=True)  
 # Loop over all CSV files in the directory
 for filename in os.listdir(directory):
