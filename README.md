@@ -28,5 +28,5 @@
 
   Analysis pipeline:
 
-<img width="1090" height="597" alt="schematic" src="https://github.com/user-attachments/assets/def78109-fd1a-4af6-b20f-52958aacdb8b" />
+<img width="6810" height="3733" alt="schematic" src="https://github.com/user-attachments/assets/90e9904f-1c29-4b45-ae48-db5ef8d873b8" />
 
