@@ -28,5 +28,5 @@
 
   Analysis pipeline:
 
-<img width="1333" height="750" alt="Analysis pipeline" src="https://github.com/user-attachments/assets/8b8561ed-9163-434a-b51b-3c823d30b7d8" />
+[Graphical_abstract.pdf](https://github.com/user-attachments/files/27097320/Graphical_abstract.pdf)
 
