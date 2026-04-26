@@ -68,7 +68,7 @@ library(DHARMa)
 library(lme4)
 library(lmerTest)
 library(emmeans)
-libarary(readr)
+library(readr)
 
 # read in data 
 data_mouse <- read_csv("C9_nonfiltered_status.csv", col_types = cols (
